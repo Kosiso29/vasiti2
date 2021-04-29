@@ -1,0 +1,541 @@
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.section0 {
+  padding: 0 10vw;
+  height: 100vh;
+  position: relative;
+}
+
+.section0 .header nav {
+  width: 100%;
+  height: 100px;
+  padding-top: 20px;
+}
+
+.section0 .header nav img {
+  display: block;
+  float: left;
+}
+
+.section0 .header nav ul {
+  float: right;
+  margin-top: 0px;
+}
+
+.section0 .header nav ul li {
+  font-size: 0.8rem;
+  display: inline-block;
+}
+
+.section0 .header nav ul li a {
+  padding: 10px 20px;
+  color: #242120;
+  display: inline-block;
+}
+
+.section0 .header nav ul li:nth-child(5) {
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.section0 .header nav ul li:nth-child(5) a {
+  color: white;
+}
+
+.section0 .header div {
+  text-align: center;
+  border: 1px solid #ddd;
+  margin: auto -10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0 50px;
+}
+
+.section0 .header div a {
+  font-size: 0.8rem;
+  padding: 10px 0px;
+  display: inline-block;
+  color: #242120;
+}
+
+.section0 .sectionDiv {
+  left: 10vw;
+  width: 40vw;
+  position: absolute;
+  top: 200px;
+  z-index: 5;
+}
+
+.section0 .sectionDiv h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.section0 .sectionImage {
+  display: block;
+  position: absolute;
+  right: 10vw;
+  width: 40vw;
+  min-width: 500px;
+  bottom: 0;
+}
+
+.section1 {
+  background-color: black;
+  color: white;
+  position: relative;
+  padding: auto 10vw;
+  overflow: auto;
+}
+
+.section1 img {
+  position: absolute;
+  width: 40vw;
+  left: 10vw;
+  bottom: 0;
+  min-width: 450px;
+  max-width: 500px;
+}
+
+.section1 div {
+  width: 30vw;
+  right: 10vw;
+  margin: 10vw 0;
+  margin-left: 60vw;
+}
+
+.section2 {
+  padding: 20px 10vw;
+}
+
+.section2 .sectionDiv {
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section2 .sectionDiv .containerDiv {
+  width: 300px;
+  margin: 0 20px;
+  padding: auto;
+}
+
+.section2 .sectionDiv .containerDiv img {
+  margin-top: 50px;
+}
+
+.section3 {
+  position: relative;
+  background-color: #FFF8F5;
+  overflow: hidden;
+  padding: 100px 10vw;
+}
+
+.section3 div {
+  padding: 0 0px;
+  left: 10vw;
+  width: 30vw;
+}
+
+.section3 img {
+  position: absolute;
+  right: 5vw;
+  width: 40vw;
+  min-width: 450px;
+  bottom: -50px;
+  max-width: 500px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #25201D;
+  color: white;
+  padding: 0px 10vw 50px;
+  position: relative;
+}
+
+.footer img {
+  width: 40vw;
+  display: inline-block;
+  position: relative;
+  top: -5vw;
+}
+
+.footer .footerDiv1 {
+  display: inline-block;
+  width: 300px;
+  position: absolute;
+  top: 5vw;
+  right: 15vw;
+}
+
+.footer .footerDiv1 input {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 15px 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.footer .footerDiv1 button {
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  position: relative;
+  top: -40px;
+  left: 200px;
+}
+
+.footer .footerDiv2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.footer .footerDiv2 div {
+  width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .footerDiv2 div a {
+  margin: 20px 0;
+  color: white;
+}
+
+@media screen and (max-width: 950px) {
+  .section0 {
+    padding: 0 5vw;
+  }
+  .section0 .header nav {
+    height: 80px;
+    padding-top: 20px;
+  }
+  .section0 .header nav ul li {
+    font-size: 0.7rem;
+  }
+  .section0 .header nav ul li a {
+    padding: 5px 10px;
+  }
+  .section0 .header nav ul li:nth-child(5) {
+    border-radius: 5px;
+  }
+  .section0 .header div {
+    margin: auto -5vw;
+    padding: 0 50px;
+  }
+  .section0 .header div a {
+    font-size: 0.7rem;
+  }
+  .section0 .sectionDiv {
+    left: 5vw;
+    width: 40vw;
+    top: 150px;
+  }
+  .section0 .sectionDiv h1 {
+    font-size: 2rem;
+  }
+  .section0 .sectionImage {
+    right: 5vw;
+    width: 40vw;
+    min-width: 500px;
+  }
+  .section1 {
+    padding: auto 5vw;
+    text-align: center;
+  }
+  .section1 img {
+    position: unset;
+    width: 40vw;
+  }
+  .section1 div {
+    text-align: left;
+    width: 90vw;
+    margin: 10vw 0 50px 0;
+    margin-left: 5vw;
+  }
+  .section2 {
+    padding: 20px 5vw;
+  }
+  .section2 .sectionDiv {
+    margin: 50px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .section2 .sectionDiv .containerDiv {
+    width: 300px;
+    margin: 0 20px;
+    padding: auto;
+  }
+  .section2 .sectionDiv .containerDiv img {
+    margin-top: 50px;
+  }
+  .section3 {
+    padding: 350px 5vw 50px;
+    background-image: url("../../assets/womanMobile.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 30px;
+  }
+  .section3 div {
+    padding: 0 0px;
+    left: 5vw;
+    width: 90vw;
+  }
+  .section3 img {
+    display: none;
+  }
+  .footer {
+    padding: 0px 5vw 50px;
+    text-align: center;
+  }
+  .footer img {
+    width: 400px;
+    margin-top: 30px;
+  }
+  .footer .footerDiv1 {
+    text-align: left;
+    width: 90vw;
+    position: unset;
+  }
+  .footer .footerDiv1 input {
+    padding: 15px 10px;
+    width: 400px;
+    display: block;
+  }
+  .footer .footerDiv1 button {
+    padding: 10px 10px;
+    top: -40px;
+    left: 300px;
+  }
+  .footer .footerDiv2 {
+    text-align: left;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-bottom: 0px;
+  }
+  .footer .footerDiv2 div {
+    width: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 20px 20px;
+  }
+  .footer .footerDiv2 div a {
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .section0 {
+    padding: 0 5vw;
+    text-align: center;
+    background-image: url("../../assets/Hero.png");
+    background-repeat: no-repeat;
+    background-size: 550px;
+    background-position-x: center;
+    background-position-y: bottom;
+  }
+  .section0 .header nav {
+    height: 80px;
+    padding-top: 20px;
+  }
+  .section0 .header nav ul {
+    display: none;
+  }
+  .section0 .header nav ul li {
+    font-size: 0.7rem;
+  }
+  .section0 .header nav ul li a {
+    padding: 5px 10px;
+  }
+  .section0 .header nav ul li:nth-child(5) {
+    border-radius: 5px;
+  }
+  .section0 .header div {
+    display: none;
+    margin: auto -5vw;
+    padding: 0 50px;
+  }
+  .section0 .header div a {
+    font-size: 0.7rem;
+  }
+  .section0 .sectionDiv {
+    left: 5vw;
+    width: 90vw;
+    top: 100px;
+    text-align: left;
+  }
+  .section0 .sectionDiv h1 {
+    font-size: 1.5rem;
+  }
+  .section0 .sectionDiv p {
+    font-size: .8rem;
+  }
+  .section0 .sectionImage {
+    right: 5vw;
+    width: 40vw;
+    position: static;
+    min-width: 500px;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section0 {
+    padding: 0 5vw;
+    text-align: center;
+  }
+  .section0 .header nav {
+    height: 80px;
+    padding-top: 20px;
+  }
+  .section0 .header nav ul {
+    display: none;
+  }
+  .section0 .header nav ul li {
+    font-size: 0.7rem;
+  }
+  .section0 .header nav ul li a {
+    padding: 5px 10px;
+  }
+  .section0 .header nav ul li:nth-child(5) {
+    border-radius: 5px;
+  }
+  .section0 .header div {
+    display: none;
+    margin: auto -5vw;
+    padding: 0 50px;
+  }
+  .section0 .header div a {
+    font-size: 0.7rem;
+  }
+  .section0 .sectionDiv {
+    left: 5vw;
+    width: 90vw;
+    top: 15vh;
+    text-align: left;
+  }
+  .section0 .sectionDiv h1 {
+    font-size: 1.5rem;
+  }
+  .section0 .sectionImage {
+    right: 5vw;
+    width: 40vw;
+    position: static;
+    min-width: 500px;
+    display: none;
+  }
+  .section1 {
+    padding: auto 5vw;
+    text-align: center;
+    background-image: url("../../assets/Group.png");
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position-y: bottom;
+    background-position-x: center;
+  }
+  .section1 img {
+    display: none;
+  }
+  .section1 div {
+    margin: 10vw 0 350px 0;
+    margin-left: 5vw;
+  }
+  .footer {
+    padding: 0px 5vw 50px;
+    text-align: center;
+  }
+  .footer img {
+    width: 250px;
+    margin-top: 30px;
+  }
+  .footer .footerDiv1 {
+    text-align: left;
+    width: 90vw;
+    position: unset;
+  }
+  .footer .footerDiv1 input {
+    padding: 10px 5px;
+    width: 280px;
+    display: block;
+  }
+  .footer .footerDiv1 button {
+    padding: 5px 5px;
+    top: -30px;
+    left: 190px;
+  }
+  .footer .footerDiv2 {
+    text-align: left;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-bottom: 0px;
+  }
+  .footer .footerDiv2 div {
+    width: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 20px 20px;
+  }
+  .footer .footerDiv2 div a {
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .section0 {
+    background-image: url("../../assets/Group81.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position-x: center;
+    background-position-y: bottom;
+  }
+  .section0 .sectionDiv h1 {
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=Home.module.css.map */
